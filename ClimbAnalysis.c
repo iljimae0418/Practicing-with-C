@@ -18,6 +18,6 @@ int main(){
 		x1 = x2; 
 		y1 = y2; 
 	}
-	printf("%f%f\n",tot,stot); 
+	printf("%.0f %.0f\n",tot,stot); 
 	return 0; 
 }
