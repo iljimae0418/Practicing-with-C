@@ -27,7 +27,7 @@ int main(){
 	for (i = 0; i < n; i++){
 		fgets(x[i],40,stdin); 
 		fflush(stdin);  
-		x[i][strlen(x[i]-1)] = '\0';  
+		x[i][strlen(x[i])-1] = '\0';  
 	}
 	for (i = 0; i < n; i++){
 		len = strlen(x[i]);  
